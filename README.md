@@ -58,7 +58,7 @@ It's mandatory to enable port forwarding in the attacker machine for allows the 
 - To allow the computer to do port forwarding in **linux:** `` echo 1> /proc/sys/net/ipv4/ip_forward``
 - To allow the computer to do port forwarding in **mac:** ``sysctl -w net.inet.ip.forwarding=1`` 
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/main/arp_sniff_1.png)
+![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/arp_sniff_1.png)
 
 - Keep the script in **terminal 1 running** because we need the script to keep sending the arp spoofing packets 
 
@@ -81,7 +81,7 @@ Now if you run this against the VM machine open the VM machine the try to login 
 
 Furthermore, you can capture all the links in the victim machine In the script I used httpyear package to filter that, then return all the links also the user name and password. as shown in the image below.
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/sniff_3.png)
+![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/snif_url.png)
 
 ## 4. DNS_Attack.
 
