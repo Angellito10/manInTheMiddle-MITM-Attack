@@ -3,7 +3,7 @@ Man in the Middle (MitM) attack that allows attackers to intercept communication
 
 most of the public networks such as Starbucks, campus-network, and mall network are vulnerable to that type of attack. here is the code of that attack and one example of the attack. seriously, this attack can impact your device, you shouldn't trust the public network to login to your account or transfer money
 
-## in this repository, I'm going to explain how this attack can be done.
+## In this repository, I'm going to explain how this attack can be done.
 
 1. networkScan
 2. arpPoisoning  
