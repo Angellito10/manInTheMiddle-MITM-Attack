@@ -95,13 +95,13 @@ To run the script you need to linux machine:
 - So the same way goes for the response packet.
 
 > Execute the attack: 
-1- We need to redirect the packet recived to the queue using: **[iptables]** which can modifying routing rules.
-> ```iptables -I FORWARD -j NFQUEUE --queue-num [anyNumber]```:
--> iptables [this allows us to wrap the packet to queue]
--> -I [to specify the packet chaine wather it (FORWARD, PACKWARD)]
--> -j [to select the queue]
--> NFQUEUE [Network filter queue]
--> queue-num [ the number in the queue packe will be store]
+- We need to redirect the packet recived to the queue using: **[iptables]** which can modifying routing rules.
+- ```iptables -I FORWARD -j NFQUEUE --queue-num [anyNumber]```:
+- iptables [this allows us to wrap the packet to queue]
+- -I [to specify the packet chaine wather it (FORWARD, PACKWARD)]
+- -j [to select the queue]
+- NFQUEUE [Network filter queue]
+- queue-num [ the number in the queue packe will be store]
 2- Now we need to access the queue: by using python mudole[ netfilterqueue ]
 
 
