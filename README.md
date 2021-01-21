@@ -77,7 +77,7 @@ In the script python packages: - import scapy.all as scapy - from scapy.layers i
 
 Now if you run this against the VM machine open the VM machine the try to login to any HTTP website, you will be able to capture the user name and password only.
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/main/sniff_3.png)
+![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/sniff_3.png)
 
 Furthermore, you can capture all the links in the victim machine In the script I used httpyear package to filter that, then return all the links also the user name and password. as shown in the image below.
 
