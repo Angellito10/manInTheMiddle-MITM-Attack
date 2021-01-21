@@ -9,6 +9,11 @@
 apt install python3-scapy
 ```
 
+install the scapy http library from the terminal:
+```
+pip install scapy-http
+```
+
 ## Installation
 
 ```
@@ -30,7 +35,7 @@ In order to become **Man-in-the-Middle (MitM**). the attacker needs to inserts h
 
 ```sudo python scanner.py ```
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/main/scanner.png)
+![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/scanner.png)
 
 Now the attacker has a list of IPs with MAC addresses for each device connected to the network. 
 
@@ -76,7 +81,7 @@ Now if you run this against the VM machine open the VM machine the try to login 
 
 Furthermore, you can capture all the links in the victim machine In the script I used httpyear package to filter that, then return all the links also the user name and password. as shown in the image below.
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/snif_url.png)
+![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/sniff_3.png)
 
 ## 4. DNS_Attack.
 
